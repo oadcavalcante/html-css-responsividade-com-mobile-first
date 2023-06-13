@@ -7,11 +7,16 @@
   display: inline-block;
 }
 
+.cabecalho__menu-hamburguer:hover {
+  cursor: pointer;
+}
+
 .cabecalho {
   background-color: var(--branco);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .container {
@@ -21,4 +26,15 @@
 
 .container_imagem {
   padding: 1em;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+
+/* quando o input estive marcado irá aparecer a .lista-menu */
+.container__botao:checked ~ .lista-menu {
+  display: block;
 }
