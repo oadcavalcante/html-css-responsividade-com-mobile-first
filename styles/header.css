@@ -32,9 +32,33 @@
   display: none;
   position: absolute;
   top: 100%;
+  width: 60vw;
+}
+
+.container__botao {
+  display: none;
 }
 
 /* quando o input estive marcado irá aparecer a .lista-menu */
 .container__botao:checked ~ .lista-menu {
   display: block;
+}
+
+.lista-menu__item,
+.lista-menu__titulo {
+  padding: 1em;
+  background: var(--branco);
+}
+
+.lista-menu__titulo {
+  color: var(--laranja);
+  font-weight: bold;
+}
+
+.lista-menu__link {
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
 }
