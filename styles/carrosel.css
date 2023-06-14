@@ -64,6 +64,7 @@
 .descricao__texto {
   font-size: 14px;
   color: var(--preto);
+  margin-right: 1.2em;
 }
 
 .botoes__item {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AluraBooks</title>
-    <link rel="shortcut icon" href="assets/img/Logo.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/Logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -154,6 +154,112 @@
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
+      <h2 class="carrosel__titulo">Mais Vendidos</h2>
+      <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img
+              src="assets/img/Arquitetura.svg"
+              alt="Livro Arquitetura de Sotware Distribuído"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Gestão2.svg" alt="Livro Gestão" />
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/Javascript.svg" alt="Livro Javacript" />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/img/MetricasAgeis.svg"
+              alt="Livro Métricas Ágeis"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              class="carrosel__livro"
+              src="assets/img/Portugol.svg"
+              alt="Livro Portugol"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="assets/img/Acessibilidade.svg"
+              alt="Livro sobre Acessibilidade"
+            />
+          </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <div class="card">
+        <!-- 1° Linha -->
+        <div class="card__descricao">
+          <!-- 1° Coluna-->
+          <div class="descricao">
+            <img src="assets/img/Estrelinhas.png" alt="Estrelinhas" />
+            <h3 class="descricao__titulo">Autora do Mês</h3>
+            <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+            <p class="descricao__texto">
+              Analista de sistemas e escritora, Juliana é especialista em
+              Front-End.
+            </p>
+          </div>
+          <!-- 2° Coluna-->
+          <img
+            src="assets/img/Perfil-escritora 1.png"
+            class="descricao__imagem"
+          />
+        </div>
+        <!-- 2° Linha -->
+        <div class="card__botoes">
+          <!-- 1° Coluna -->
+          <ul class="botoes">
+            <li class="botoes__item">
+              <img src="assets/img/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li class="botoes__item">
+              <img src="assets/img/Compras.svg" alt="Adicionar ao carrinho" />
+            </li>
+          </ul>
+          <!-- 2° Coluna -->
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </section>
+    <section class="topicos">
+      <h2 class="topicos__titulo">Tópicos visitados recentemente</h2>
+      <ul class="topicos__lista">
+        <li class="topicos__item">
+          <a href="#android" class="topicos__link">Android</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#mktdigital" class="topicos__link">Marketing Digital</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#agile" class="topicos__link">Agile</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#startups" class="topicos__link">Startups</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#htmlcss" class="topicos__link">HTML e CSS</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#python" class="topicos__link">Python</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#oo" class="topicos__link">OO</a>
+        </li>
+        <li class="topicos__item">
+          <a href="#java" class="topicos__link">Java</a>
+        </li>
+      </ul>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
