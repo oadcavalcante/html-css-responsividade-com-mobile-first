@@ -2,6 +2,8 @@
 @import url("styles/banner.css");
 @import url("styles/carrosel.css");
 @import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
 
 :root {
   --cor-de-fundo: #ebecee;
@@ -11,6 +13,7 @@
   --azul: #002f52;
   --preto: rgba(0, 0, 0, 0.85);
   --fonte-principal: "Poppins";
+  --cinza: #f9f9f9;
 }
 
 body {
