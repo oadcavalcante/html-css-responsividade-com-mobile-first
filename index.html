@@ -59,9 +59,27 @@
       </div>
 
       <ul class="opcoes">
-        <li class="opcoes__item">
-          <a href="#categorias" class="opcoes__link">Categorias</a>
-        </li>
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao" />
+        <label for="opcoes-menu">
+          <li class="opcoes__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Programação</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Front-end</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Business</a>
+          </li>
+          <li class="lista-menu__item">
+            <a href="#" class="lista-menu__link">Design e UX</a>
+          </li>
+        </ul>
         <li class="opcoes__item">
           <a href="#favoritos" class="opcoes__link">Favoritos</a>
         </li>
@@ -283,10 +301,12 @@
       </ul>
     </section>
     <div class="contato">
-      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-      <p class="contato__texto">
-        Atualizações de e-books, novos livros, promoções e outros.
-      </p>
+      <div class="contato__descricao">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">
+          Atualizações de e-books, novos livros, promoções e outros.
+        </p>
+      </div>
       <input
         type="email"
         class="contato__email"
