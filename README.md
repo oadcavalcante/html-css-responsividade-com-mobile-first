@@ -6,3 +6,5 @@ Projeto Alura Books
 - Abordagem mobile-first
 - Utilização de media queries na construção de layouts responsivos
 - Realização de deploy de um site através do Github Pages
+
+https://adcavalcant.github.io/HTML-CSS-Responsividade-com-mobile-first/
