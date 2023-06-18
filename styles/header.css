@@ -35,10 +35,6 @@
   width: 60vw;
 }
 
-.container__botao {
-  display: none;
-}
-
 /* quando o input estive marcado irá aparecer a .lista-menu */
 .container__botao:checked ~ .lista-menu {
   display: block;
@@ -63,14 +59,9 @@
   text-transform: uppercase;
 }
 
-.container__titulo {
-  display: none;
-}
-
-.opcoes {
-  display: none;
-}
-
+.container__botao,
+.container__titulo,
+.opcoes,
 .container__texto {
   display: none;
 }
